@@ -1,0 +1,58 @@
+
+
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #393E46;
+    color: #fff;
+background-image: url();
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.logo {
+     text-align: center;
+}
+
+.holdiaysAnnouncement {
+     text-align: center;
+}
+
+.chrima {
+        text-align: center;
+}
+
+.chrismas {
+    display: flex;
+    flex-direction: column;
+        text-align: center;
+
+}
+
+.kfc {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.kfcChrismas {
+   display: flex;
+    flex-direction: column;
+        text-align: center; 
+}
+
+.kramp {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.krampus {
+    display: flex;
+    flex-direction: column;
+        text-align: center; 
+}
