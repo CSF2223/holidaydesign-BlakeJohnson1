@@ -8,12 +8,12 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #393E46;
     color: #fff;
-background-image: url();
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+    background-color: #666666;
+    background-image: url('https://freerangestock.com/sample/140321/red-christmas-background.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -22,6 +22,14 @@ background-repeat: no-repeat;
 
 .holdiaysAnnouncement {
      text-align: center;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: grey;
+  border: 2px solid red;
 }
 
 .chrima {
@@ -55,4 +63,26 @@ background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
         text-align: center; 
+}
+
+.copyright {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #c5b358;
+    display: block;
+    text-align: center; 
+}
+
+.bmj {
+    width: 3rem;
+    height: 3rem;
+     display: flex;
+    justify-content: center;
+     
+}
+
+.relative {
+    postion: relative;
+    
 }
