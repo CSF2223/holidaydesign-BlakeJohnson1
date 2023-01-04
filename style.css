@@ -1,0 +1,141 @@
+
+
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+   background-color: #666666;
+background-image: url('https://media.tenor.com/w1OUcTo6vIIAAAAd/night-wallpaper.gif');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.logo {
+     text-align: center;
+     font-size: 50px;
+}
+
+.holdiaysAnnouncement {
+     text-align: center;
+     font-size: 30px;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: grey;
+  border: 2px solid red;
+}
+
+.chrima {
+        text-align: center;
+}
+
+.chrismas {
+    display: flex;
+    flex-direction: column;
+        text-align: center;
+    border: 1rem outset;
+    border-radius: 5rem;
+    letter-spacing: .15rem;
+    background-color: #666666;
+background-image: url('https://media0.giphy.com/media/WWNObA6zP3wNZBYWlU/giphy.gif');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+    
+}
+
+.kfc {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.kfcChrismas {
+   display: flex;
+    flex-direction: column;
+        text-align: center;
+    border: 1rem outset;
+    border-radius: 5rem;
+    letter-spacing: .15rem;
+    background-color: #666666;
+background-image: url('https://media.tenor.com/JXTYd5s-epoAAAAC/kfc-chicken.gif');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.kramp {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.krampus {
+    display: flex;
+    flex-direction: column;
+        text-align: center;
+    border: 1rem outset;
+    border-radius: 5rem;
+    letter-spacing: .15rem;
+    background-color: #666666;
+background-image: url('https://i.pinimg.com/originals/a8/c3/8a/a8c38a9ce00bc16db6f092ad66c23421.gif');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.copyright {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #c5b358;
+    display: block;
+    text-align: center; 
+}
+
+.bmj {
+    width: 3rem;
+    height: 3rem;
+     display: flex;
+    justify-content: center;
+     
+}
+
+.relative {
+    postion: relative;
+    
+}
+
+.krampusImg {
+    width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kfcImage {
+    width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.christmasImg {
+    width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
