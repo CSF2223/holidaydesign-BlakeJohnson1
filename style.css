@@ -9,19 +9,21 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #fff;
-    background-color: #666666;
-    background-image: url('https://freerangestock.com/sample/140321/red-christmas-background.jpg');
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+   background-color: #666666;
+background-image: url('https://media.tenor.com/w1OUcTo6vIIAAAAd/night-wallpaper.gif');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .logo {
      text-align: center;
+     font-size: 50px;
 }
 
 .holdiaysAnnouncement {
      text-align: center;
+     font-size: 30px;
 }
 
 .sticky {
@@ -40,7 +42,15 @@ body {
     display: flex;
     flex-direction: column;
         text-align: center;
-
+    border: 1rem outset;
+    border-radius: 5rem;
+    letter-spacing: .15rem;
+    background-color: #666666;
+background-image: url('https://media0.giphy.com/media/WWNObA6zP3wNZBYWlU/giphy.gif');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+    
 }
 
 .kfc {
@@ -51,7 +61,15 @@ body {
 .kfcChrismas {
    display: flex;
     flex-direction: column;
-        text-align: center; 
+        text-align: center;
+    border: 1rem outset;
+    border-radius: 5rem;
+    letter-spacing: .15rem;
+    background-color: #666666;
+background-image: url('https://media.tenor.com/JXTYd5s-epoAAAAC/kfc-chicken.gif');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .kramp {
@@ -62,7 +80,15 @@ body {
 .krampus {
     display: flex;
     flex-direction: column;
-        text-align: center; 
+        text-align: center;
+    border: 1rem outset;
+    border-radius: 5rem;
+    letter-spacing: .15rem;
+    background-color: #666666;
+background-image: url('https://i.pinimg.com/originals/a8/c3/8a/a8c38a9ce00bc16db6f092ad66c23421.gif');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .copyright {
@@ -85,4 +111,31 @@ body {
 .relative {
     postion: relative;
     
+}
+
+.krampusImg {
+    width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kfcImage {
+    width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.christmasImg {
+    width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
